@@ -4,16 +4,28 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    public GameObject gameObject;
+    public float speed = 30f;
+
+
+    public GameObject PlayerBullet;
+    protected CharacterController2D1 controller2D;
     // Start is called before the first frame update
-    void Start()
+
+    void FixedUpdate()
     {
-        
+        float HorzMove = Input.GetAxisRaw("Horizontal");
+
+        GetComponent<Rigidbody2D>().velocity = new Vector2(HorzMove, 0) * speed;
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if(Input.GetButtonDown("Jump"))
+        {
+            Instantiate(PlayerBullet, transform.position, Quaternion.identity);
+
+            SoundManager.Instance.PlayOneShot(SoundManager.Instance.BulletFire);
+        }
     }
 }
