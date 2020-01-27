@@ -15,9 +15,9 @@ MonoBehaviour:
   m_PixelRect:
     serializedVersion: 2
     x: 0
-    y: 43
-    width: 1920
-    height: 956
+    y: 43.2
+    width: 1536
+    height: 742.4
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 7}
@@ -38,10 +38,10 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1327
+    x: 1021
     y: 0
     width: 204
-    height: 906
+    height: 693
   m_MinSize: {x: 204, y: 222}
   m_MaxSize: {x: 4004, y: 4022}
   m_ActualView: {fileID: 17}
@@ -64,12 +64,12 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 529
+    x: 407
     y: 0
-    width: 798
-    height: 328
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
+    width: 614
+    height: 272
+  m_MinSize: {x: 104, y: 122}
+  m_MaxSize: {x: 4004, y: 4022}
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
@@ -93,13 +93,13 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 578
-    width: 1327
-    height: 328
-  m_MinSize: {x: 332, y: 272}
-  m_MaxSize: {x: 14002, y: 10022}
+    y: 421
+    width: 1021
+    height: 272
+  m_MinSize: {x: 336, y: 272}
+  m_MaxSize: {x: 14006, y: 10022}
   vertical: 0
-  controlID: 105
+  controlID: 109
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -117,8 +117,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1327
-    height: 578
+    width: 1021
+    height: 421
   m_MinSize: {x: 202, y: 222}
   m_MaxSize: {x: 4002, y: 4022}
   m_ActualView: {fileID: 20}
@@ -147,12 +147,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1327
-    height: 906
-  m_MinSize: {x: 332, y: 494}
-  m_MaxSize: {x: 14002, y: 14044}
+    width: 1021
+    height: 693
+  m_MinSize: {x: 336, y: 494}
+  m_MaxSize: {x: 14006, y: 14044}
   vertical: 1
-  controlID: 39
+  controlID: 45
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -173,8 +173,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1920
-    height: 956
+    width: 1536
+    height: 743
   m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &8
@@ -194,7 +194,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1920
+    width: 1536
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -215,8 +215,8 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 936
-    width: 1920
+    y: 723
+    width: 1536
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -240,12 +240,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 30
-    width: 1920
-    height: 906
-  m_MinSize: {x: 813, y: 494}
-  m_MaxSize: {x: 22008, y: 14044}
+    width: 1536
+    height: 693
+  m_MinSize: {x: 817, y: 494}
+  m_MaxSize: {x: 22012, y: 14044}
   vertical: 0
-  controlID: 159
+  controlID: 144
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -263,8 +263,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 529
-    height: 328
+    width: 407
+    height: 272
   m_MinSize: {x: 232, y: 272}
   m_MaxSize: {x: 10002, y: 10022}
   m_ActualView: {fileID: 18}
@@ -290,10 +290,10 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1531
+    x: 1225
     y: 0
-    width: 389
-    height: 906
+    width: 311
+    height: 693
   m_MinSize: {x: 277, y: 72}
   m_MaxSize: {x: 4002, y: 4022}
   m_ActualView: {fileID: 24}
@@ -496,7 +496,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.2.16
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.collab-proxy@1.2.16
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.collab-proxy@1.2.16
         m_AssetPath: Packages/com.unity.collab-proxy
         m_Name: com.unity.collab-proxy
         m_DisplayName: Unity Collaborate
@@ -576,7 +576,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.2.16
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.collab-proxy@1.2.16
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.collab-proxy@1.2.16
         m_AssetPath: Packages/com.unity.collab-proxy
         m_Name: com.unity.collab-proxy
         m_DisplayName: Unity Collaborate
@@ -656,7 +656,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.2.16
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.collab-proxy@1.2.16
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.collab-proxy@1.2.16
         m_AssetPath: Packages/com.unity.collab-proxy
         m_Name: com.unity.collab-proxy
         m_DisplayName: Unity Collaborate
@@ -736,7 +736,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.2.16
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.collab-proxy@1.2.16
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.collab-proxy@1.2.16
         m_AssetPath: Packages/com.unity.collab-proxy
         m_Name: com.unity.collab-proxy
         m_DisplayName: Unity Collaborate
@@ -816,7 +816,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.2.16
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.collab-proxy@1.2.16
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.collab-proxy@1.2.16
         m_AssetPath: Packages/com.unity.collab-proxy
         m_Name: com.unity.collab-proxy
         m_DisplayName: Unity Collaborate
@@ -896,7 +896,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.0
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.ext.nunit@1.0.0
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.ext.nunit@1.0.0
         m_AssetPath: Packages/com.unity.ext.nunit
         m_Name: com.unity.ext.nunit
         m_DisplayName: Custom NUnit
@@ -958,7 +958,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.0
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.ext.nunit@1.0.0
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.ext.nunit@1.0.0
         m_AssetPath: Packages/com.unity.ext.nunit
         m_Name: com.unity.ext.nunit
         m_DisplayName: Custom NUnit
@@ -1020,7 +1020,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.0
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.ext.nunit@1.0.0
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.ext.nunit@1.0.0
         m_AssetPath: Packages/com.unity.ext.nunit
         m_Name: com.unity.ext.nunit
         m_DisplayName: Custom NUnit
@@ -1082,7 +1082,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.0
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.ext.nunit@1.0.0
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.ext.nunit@1.0.0
         m_AssetPath: Packages/com.unity.ext.nunit
         m_Name: com.unity.ext.nunit
         m_DisplayName: Custom NUnit
@@ -1145,7 +1145,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.0
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.ide.rider@1.1.0
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.ide.rider@1.1.0
         m_AssetPath: Packages/com.unity.ide.rider
         m_Name: com.unity.ide.rider
         m_DisplayName: Rider Editor
@@ -1227,7 +1227,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.0
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.ide.rider@1.1.0
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.ide.rider@1.1.0
         m_AssetPath: Packages/com.unity.ide.rider
         m_Name: com.unity.ide.rider
         m_DisplayName: Rider Editor
@@ -1309,7 +1309,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.0
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.ide.rider@1.1.0
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.ide.rider@1.1.0
         m_AssetPath: Packages/com.unity.ide.rider
         m_Name: com.unity.ide.rider
         m_DisplayName: Rider Editor
@@ -1391,7 +1391,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.0
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.ide.rider@1.1.0
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.ide.rider@1.1.0
         m_AssetPath: Packages/com.unity.ide.rider
         m_Name: com.unity.ide.rider
         m_DisplayName: Rider Editor
@@ -1473,7 +1473,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.0
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.ide.rider@1.1.0
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.ide.rider@1.1.0
         m_AssetPath: Packages/com.unity.ide.rider
         m_Name: com.unity.ide.rider
         m_DisplayName: Rider Editor
@@ -1555,7 +1555,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.0
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.ide.rider@1.1.0
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.ide.rider@1.1.0
         m_AssetPath: Packages/com.unity.ide.rider
         m_Name: com.unity.ide.rider
         m_DisplayName: Rider Editor
@@ -1637,7 +1637,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.0
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.ide.rider@1.1.0
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.ide.rider@1.1.0
         m_AssetPath: Packages/com.unity.ide.rider
         m_Name: com.unity.ide.rider
         m_DisplayName: Rider Editor
@@ -1719,7 +1719,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.0
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.ide.rider@1.1.0
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.ide.rider@1.1.0
         m_AssetPath: Packages/com.unity.ide.rider
         m_Name: com.unity.ide.rider
         m_DisplayName: Rider Editor
@@ -1801,7 +1801,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.0
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.ide.rider@1.1.0
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.ide.rider@1.1.0
         m_AssetPath: Packages/com.unity.ide.rider
         m_Name: com.unity.ide.rider
         m_DisplayName: Rider Editor
@@ -1883,7 +1883,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.0
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.ide.rider@1.1.0
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.ide.rider@1.1.0
         m_AssetPath: Packages/com.unity.ide.rider
         m_Name: com.unity.ide.rider
         m_DisplayName: Rider Editor
@@ -1965,7 +1965,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.0
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.ide.rider@1.1.0
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.ide.rider@1.1.0
         m_AssetPath: Packages/com.unity.ide.rider
         m_Name: com.unity.ide.rider
         m_DisplayName: Rider Editor
@@ -2047,7 +2047,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.0
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.ide.rider@1.1.0
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.ide.rider@1.1.0
         m_AssetPath: Packages/com.unity.ide.rider
         m_Name: com.unity.ide.rider
         m_DisplayName: Rider Editor
@@ -2129,7 +2129,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.3
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.ide.vscode@1.1.3
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.ide.vscode@1.1.3
         m_AssetPath: Packages/com.unity.ide.vscode
         m_Name: com.unity.ide.vscode
         m_DisplayName: Visual Studio Code Editor
@@ -2196,7 +2196,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.3
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.ide.vscode@1.1.3
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.ide.vscode@1.1.3
         m_AssetPath: Packages/com.unity.ide.vscode
         m_Name: com.unity.ide.vscode
         m_DisplayName: Visual Studio Code Editor
@@ -2263,7 +2263,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.3
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.ide.vscode@1.1.3
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.ide.vscode@1.1.3
         m_AssetPath: Packages/com.unity.ide.vscode
         m_Name: com.unity.ide.vscode
         m_DisplayName: Visual Studio Code Editor
@@ -2330,7 +2330,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.3
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.ide.vscode@1.1.3
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.ide.vscode@1.1.3
         m_AssetPath: Packages/com.unity.ide.vscode
         m_Name: com.unity.ide.vscode
         m_DisplayName: Visual Studio Code Editor
@@ -2397,7 +2397,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.3
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.ide.vscode@1.1.3
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.ide.vscode@1.1.3
         m_AssetPath: Packages/com.unity.ide.vscode
         m_Name: com.unity.ide.vscode
         m_DisplayName: Visual Studio Code Editor
@@ -2464,7 +2464,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.3
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.ide.vscode@1.1.3
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.ide.vscode@1.1.3
         m_AssetPath: Packages/com.unity.ide.vscode
         m_Name: com.unity.ide.vscode
         m_DisplayName: Visual Studio Code Editor
@@ -2531,7 +2531,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.3
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.ide.vscode@1.1.3
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.ide.vscode@1.1.3
         m_AssetPath: Packages/com.unity.ide.vscode
         m_Name: com.unity.ide.vscode
         m_DisplayName: Visual Studio Code Editor
@@ -2655,7 +2655,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -2751,7 +2751,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -2847,7 +2847,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -2943,7 +2943,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -3039,7 +3039,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -3135,7 +3135,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -3231,7 +3231,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -3327,7 +3327,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -3423,7 +3423,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -3519,7 +3519,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -3615,7 +3615,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -3711,7 +3711,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -3807,7 +3807,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -3903,7 +3903,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -3999,7 +3999,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -4095,7 +4095,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -4191,7 +4191,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -4287,7 +4287,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -4383,7 +4383,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -4479,7 +4479,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -4601,7 +4601,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -4767,7 +4767,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -4933,7 +4933,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -5099,7 +5099,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -5265,7 +5265,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -5431,7 +5431,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -5597,7 +5597,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -5763,7 +5763,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -5929,7 +5929,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -6095,7 +6095,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -6261,7 +6261,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -6427,7 +6427,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -6593,7 +6593,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -6759,7 +6759,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -6925,7 +6925,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -7091,7 +7091,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -7257,7 +7257,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -7423,7 +7423,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -7589,7 +7589,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -7755,7 +7755,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -7921,7 +7921,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -8087,7 +8087,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -8253,7 +8253,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -8419,7 +8419,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -8585,7 +8585,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -8751,7 +8751,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -8917,7 +8917,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -9083,7 +9083,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -11226,7 +11226,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.2.16
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.collab-proxy@1.2.16
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.collab-proxy@1.2.16
         m_AssetPath: Packages/com.unity.collab-proxy
         m_Name: com.unity.collab-proxy
         m_DisplayName: Unity Collaborate
@@ -11306,7 +11306,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.2.16
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.collab-proxy@1.2.16
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.collab-proxy@1.2.16
         m_AssetPath: Packages/com.unity.collab-proxy
         m_Name: com.unity.collab-proxy
         m_DisplayName: Unity Collaborate
@@ -11386,7 +11386,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.2.16
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.collab-proxy@1.2.16
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.collab-proxy@1.2.16
         m_AssetPath: Packages/com.unity.collab-proxy
         m_Name: com.unity.collab-proxy
         m_DisplayName: Unity Collaborate
@@ -11466,7 +11466,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.2.16
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.collab-proxy@1.2.16
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.collab-proxy@1.2.16
         m_AssetPath: Packages/com.unity.collab-proxy
         m_Name: com.unity.collab-proxy
         m_DisplayName: Unity Collaborate
@@ -11546,7 +11546,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.2.16
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.collab-proxy@1.2.16
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.collab-proxy@1.2.16
         m_AssetPath: Packages/com.unity.collab-proxy
         m_Name: com.unity.collab-proxy
         m_DisplayName: Unity Collaborate
@@ -11626,7 +11626,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.0
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.ext.nunit@1.0.0
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.ext.nunit@1.0.0
         m_AssetPath: Packages/com.unity.ext.nunit
         m_Name: com.unity.ext.nunit
         m_DisplayName: Custom NUnit
@@ -11688,7 +11688,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.0
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.ext.nunit@1.0.0
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.ext.nunit@1.0.0
         m_AssetPath: Packages/com.unity.ext.nunit
         m_Name: com.unity.ext.nunit
         m_DisplayName: Custom NUnit
@@ -11750,7 +11750,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.0
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.ext.nunit@1.0.0
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.ext.nunit@1.0.0
         m_AssetPath: Packages/com.unity.ext.nunit
         m_Name: com.unity.ext.nunit
         m_DisplayName: Custom NUnit
@@ -11812,7 +11812,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.0
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.ext.nunit@1.0.0
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.ext.nunit@1.0.0
         m_AssetPath: Packages/com.unity.ext.nunit
         m_Name: com.unity.ext.nunit
         m_DisplayName: Custom NUnit
@@ -11875,7 +11875,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.0
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.ide.rider@1.1.0
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.ide.rider@1.1.0
         m_AssetPath: Packages/com.unity.ide.rider
         m_Name: com.unity.ide.rider
         m_DisplayName: Rider Editor
@@ -11957,7 +11957,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.0
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.ide.rider@1.1.0
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.ide.rider@1.1.0
         m_AssetPath: Packages/com.unity.ide.rider
         m_Name: com.unity.ide.rider
         m_DisplayName: Rider Editor
@@ -12039,7 +12039,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.0
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.ide.rider@1.1.0
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.ide.rider@1.1.0
         m_AssetPath: Packages/com.unity.ide.rider
         m_Name: com.unity.ide.rider
         m_DisplayName: Rider Editor
@@ -12121,7 +12121,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.0
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.ide.rider@1.1.0
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.ide.rider@1.1.0
         m_AssetPath: Packages/com.unity.ide.rider
         m_Name: com.unity.ide.rider
         m_DisplayName: Rider Editor
@@ -12203,7 +12203,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.0
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.ide.rider@1.1.0
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.ide.rider@1.1.0
         m_AssetPath: Packages/com.unity.ide.rider
         m_Name: com.unity.ide.rider
         m_DisplayName: Rider Editor
@@ -12285,7 +12285,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.0
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.ide.rider@1.1.0
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.ide.rider@1.1.0
         m_AssetPath: Packages/com.unity.ide.rider
         m_Name: com.unity.ide.rider
         m_DisplayName: Rider Editor
@@ -12367,7 +12367,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.0
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.ide.rider@1.1.0
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.ide.rider@1.1.0
         m_AssetPath: Packages/com.unity.ide.rider
         m_Name: com.unity.ide.rider
         m_DisplayName: Rider Editor
@@ -12449,7 +12449,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.0
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.ide.rider@1.1.0
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.ide.rider@1.1.0
         m_AssetPath: Packages/com.unity.ide.rider
         m_Name: com.unity.ide.rider
         m_DisplayName: Rider Editor
@@ -12531,7 +12531,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.0
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.ide.rider@1.1.0
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.ide.rider@1.1.0
         m_AssetPath: Packages/com.unity.ide.rider
         m_Name: com.unity.ide.rider
         m_DisplayName: Rider Editor
@@ -12613,7 +12613,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.0
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.ide.rider@1.1.0
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.ide.rider@1.1.0
         m_AssetPath: Packages/com.unity.ide.rider
         m_Name: com.unity.ide.rider
         m_DisplayName: Rider Editor
@@ -12695,7 +12695,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.0
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.ide.rider@1.1.0
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.ide.rider@1.1.0
         m_AssetPath: Packages/com.unity.ide.rider
         m_Name: com.unity.ide.rider
         m_DisplayName: Rider Editor
@@ -12777,7 +12777,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.0
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.ide.rider@1.1.0
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.ide.rider@1.1.0
         m_AssetPath: Packages/com.unity.ide.rider
         m_Name: com.unity.ide.rider
         m_DisplayName: Rider Editor
@@ -12859,7 +12859,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.3
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.ide.vscode@1.1.3
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.ide.vscode@1.1.3
         m_AssetPath: Packages/com.unity.ide.vscode
         m_Name: com.unity.ide.vscode
         m_DisplayName: Visual Studio Code Editor
@@ -12926,7 +12926,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.3
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.ide.vscode@1.1.3
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.ide.vscode@1.1.3
         m_AssetPath: Packages/com.unity.ide.vscode
         m_Name: com.unity.ide.vscode
         m_DisplayName: Visual Studio Code Editor
@@ -12993,7 +12993,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.3
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.ide.vscode@1.1.3
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.ide.vscode@1.1.3
         m_AssetPath: Packages/com.unity.ide.vscode
         m_Name: com.unity.ide.vscode
         m_DisplayName: Visual Studio Code Editor
@@ -13060,7 +13060,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.3
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.ide.vscode@1.1.3
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.ide.vscode@1.1.3
         m_AssetPath: Packages/com.unity.ide.vscode
         m_Name: com.unity.ide.vscode
         m_DisplayName: Visual Studio Code Editor
@@ -13127,7 +13127,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.3
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.ide.vscode@1.1.3
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.ide.vscode@1.1.3
         m_AssetPath: Packages/com.unity.ide.vscode
         m_Name: com.unity.ide.vscode
         m_DisplayName: Visual Studio Code Editor
@@ -13194,7 +13194,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.3
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.ide.vscode@1.1.3
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.ide.vscode@1.1.3
         m_AssetPath: Packages/com.unity.ide.vscode
         m_Name: com.unity.ide.vscode
         m_DisplayName: Visual Studio Code Editor
@@ -13261,7 +13261,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.1.3
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.ide.vscode@1.1.3
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.ide.vscode@1.1.3
         m_AssetPath: Packages/com.unity.ide.vscode
         m_Name: com.unity.ide.vscode
         m_DisplayName: Visual Studio Code Editor
@@ -13385,7 +13385,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -13481,7 +13481,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -13577,7 +13577,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -13673,7 +13673,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -13769,7 +13769,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -13865,7 +13865,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -13961,7 +13961,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -14057,7 +14057,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -14153,7 +14153,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -14249,7 +14249,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -14345,7 +14345,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -14441,7 +14441,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -14537,7 +14537,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -14633,7 +14633,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -14729,7 +14729,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -14825,7 +14825,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -14921,7 +14921,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -15017,7 +15017,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -15113,7 +15113,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -15209,7 +15209,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 1.0.13
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.test-framework@1.0.13
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.test-framework@1.0.13
         m_AssetPath: Packages/com.unity.test-framework
         m_Name: com.unity.test-framework
         m_DisplayName: Test Framework
@@ -15331,7 +15331,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -15497,7 +15497,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -15663,7 +15663,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -15829,7 +15829,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -15995,7 +15995,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -16161,7 +16161,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -16327,7 +16327,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -16493,7 +16493,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -16659,7 +16659,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -16825,7 +16825,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -16991,7 +16991,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -17157,7 +17157,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -17323,7 +17323,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -17489,7 +17489,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -17655,7 +17655,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -17821,7 +17821,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -17987,7 +17987,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -18153,7 +18153,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -18319,7 +18319,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -18485,7 +18485,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -18651,7 +18651,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -18817,7 +18817,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -18983,7 +18983,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -19149,7 +19149,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -19315,7 +19315,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -19481,7 +19481,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -19647,7 +19647,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -19813,7 +19813,7 @@ MonoBehaviour:
         m_IsDirectDependency: 1
         m_Version: 2.0.1
         m_Source: 1
-        m_ResolvedPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.textmeshpro@2.0.1
+        m_ResolvedPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders\Library\PackageCache\com.unity.textmeshpro@2.0.1
         m_AssetPath: Packages/com.unity.textmeshpro
         m_Name: com.unity.textmeshpro
         m_DisplayName: TextMesh Pro
@@ -103042,8 +103042,8 @@ MonoBehaviour:
         m_HideInEditor: 1
         m_DatePublishedTicks: 636930181110000000
       IsInstalled: 0
-    listPackagesVersion: 186
-    listPackagesOfflineVersion: 185
+    listPackagesVersion: 188
+    listPackagesOfflineVersion: 187
     searchOperationOngoing: 1
     listOperationOngoing: 0
     listOperationOfflineOngoing: 0
@@ -103320,9 +103320,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 73
-    width: 1327
-    height: 559
+    y: 73.6
+    width: 1021
+    height: 402
   m_ViewDataDictionary: {fileID: 0}
   m_VSyncEnabled: 0
   m_MaximizeOnPlay: 0
@@ -103335,10 +103335,10 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -663.5
-    m_HBaseRangeMax: 663.5
-    m_VBaseRangeMin: -271
-    m_VBaseRangeMax: 271
+    m_HBaseRangeMin: -408.4
+    m_HBaseRangeMax: 408.4
+    m_VBaseRangeMin: -154
+    m_VBaseRangeMax: 154
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -103356,25 +103356,25 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 17
-      width: 1327
-      height: 542
+      width: 1021
+      height: 385
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 663.5, y: 271}
+    m_Translation: {x: 510.5, y: 192.5}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -663.5
-      y: -271
-      width: 1327
-      height: 542
+      x: -510.5
+      y: -192.5
+      width: 1021
+      height: 385
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 0
-  m_LastWindowPixelSize: {x: 1327, y: 559}
+  m_LastWindowPixelSize: {x: 1276.25, y: 502.5}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000100000100
@@ -103400,17 +103400,17 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1327
-    y: 73
+    x: 1020.8
+    y: 73.6
     width: 202
-    height: 887
+    height: 674
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: fcf1fefff892ffffd69affffd8aefffff6caffff80e4ffff70fbffff
+      m_SelectedIDs: 4a3b0000
+      m_LastClickedID: 15178
+      m_ExpandedIDs: 1af0fffff63a0000fa3b0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -103456,9 +103456,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 651
-    width: 529
-    height: 309
+    y: 494.4
+    width: 407
+    height: 253
   m_ViewDataDictionary: {fileID: 0}
   m_SearchFilter:
     m_NameFilter: 
@@ -103479,14 +103479,14 @@ MonoBehaviour:
   m_LastFolders:
   - Assets/Scripts
   m_LastFoldersGridSize: 53
-  m_LastProjectPath: E:\Work\GitHub\Space-Invaders\Spacer Invaders
+  m_LastProjectPath: C:\Users\Bruger\Desktop\GitHub\Space-Invaders\Spacer Invaders
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: f62d0000
-    m_LastClickedID: 11766
-    m_ExpandedIDs: 00000000402d000000ca9a3b
+    m_SelectedIDs: 0c370000
+    m_LastClickedID: 14092
+    m_ExpandedIDs: 000000008036000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -103514,7 +103514,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 82}
     m_SelectedIDs: b287ffff
     m_LastClickedID: -30798
-    m_ExpandedIDs: 00000000402d0000
+    m_ExpandedIDs: 0000000080360000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -103591,10 +103591,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 529
-    y: 651
-    width: 796
-    height: 309
+    x: 407.2
+    y: 494.4
+    width: 612
+    height: 253
   m_ViewDataDictionary: {fileID: 0}
 --- !u!114 &20
 MonoBehaviour:
@@ -103618,9 +103618,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 73
-    width: 1327
-    height: 559
+    y: 73.6
+    width: 1021
+    height: 402
   m_ViewDataDictionary: {fileID: 0}
   m_ShowContextualTools: 0
   m_WindowGUID: 1db4f64e889f5db42ae0936ef131b916
@@ -103632,9 +103632,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -13.44163, y: -6.22436, z: -51.1875}
+    m_Target: {x: -20.905775, y: 11.519928, z: -40.859375}
     speed: 2
-    m_Value: {x: -13.44163, y: -6.22436, z: -51.1875}
+    m_Value: {x: -20.905775, y: 11.519928, z: -40.859375}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -103667,9 +103667,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 76.75375
+    m_Target: 92.26052
     speed: 2
-    m_Value: 76.75375
+    m_Value: 75.31471
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -103835,10 +103835,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1531
-    y: 73
-    width: 387
-    height: 887
+    x: 1224.8
+    y: 73.6
+    width: 309
+    height: 674
   m_ViewDataDictionary: {fileID: 0}
   m_OpenAddComponentMenu: 0
   m_ObjectsLockedBeforeSerialization: []

@@ -8,7 +8,6 @@ public class Player : MonoBehaviour
 
 
     public GameObject PlayerBullet;
-    protected CharacterController2D1 controller2D;
     // Start is called before the first frame update
 
     void FixedUpdate()
