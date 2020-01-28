@@ -53,7 +53,7 @@ public class Aliens : MonoBehaviour
     void MoveDown()
     {
         Vector2 position = transform.position;
-        position.y -= 2;
+        position.y -= 2.5;
         transform.position = position;
     }
 
