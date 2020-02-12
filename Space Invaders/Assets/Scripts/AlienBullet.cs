@@ -2,11 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AlienBullet : MonoBehaviour
+public class AlienBullet : BulletMain
 {
-    private Rigidbody2D rb2d;
-    public float speed = 30f;
-    public Sprite ExplodedShipImage;
     // Start is called before the first frame update
     void Start()
     {
@@ -17,15 +14,11 @@ public class AlienBullet : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.tag=="Walls")
-        {
-            Destroy(gameObject);
-        }
         if (collision.tag == "Player")
         {
             SoundManager.Instance.playOneShot(SoundManager.Instance.ShipExplosion);
 
-            collision.GetComponent<SpriteRenderer>().sprite = ExplodedShipImage;
+            collision.GetComponent<SpriteRenderer>().sprite = sprite;
 
             Destroy(gameObject);
             Object.Destroy(collision.gameObject, 0.5f);
@@ -37,12 +30,6 @@ public class AlienBullet : MonoBehaviour
 
         }
     }
-
-    private void OnBecameInvisible()
-    {
-        Destroy(gameObject);
-    }
-
     // Update is called once per frame
     void Update()
     {

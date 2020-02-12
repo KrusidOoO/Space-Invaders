@@ -3,12 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class PlayerBullet : MonoBehaviour
+public class PlayerBullet : BulletMain
 {
-    public float speed = 30f;
-    private Rigidbody2D rb2d;
-
-    public Sprite explodedAlienImage;
     // Start is called before the first frame update
     void Start()
     {
@@ -33,7 +29,7 @@ public class PlayerBullet : MonoBehaviour
 
             IncreaseTextUIScoreAlien();
 
-            collision.GetComponent<SpriteRenderer>().sprite = explodedAlienImage;
+            collision.GetComponent<SpriteRenderer>().sprite = sprite;
             Destroy(gameObject);
 
             Object.Destroy(collision.gameObject, 0.1f);
@@ -45,7 +41,7 @@ public class PlayerBullet : MonoBehaviour
 
             IncreaseTextUIScoreAlien2();
 
-            collision.GetComponent<SpriteRenderer>().sprite = explodedAlienImage;
+            collision.GetComponent<SpriteRenderer>().sprite = sprite;
 
             Destroy(gameObject);
 
@@ -58,7 +54,7 @@ public class PlayerBullet : MonoBehaviour
 
             IncreaseTextUIScoreAlien3();
 
-            collision.GetComponent<SpriteRenderer>().sprite = explodedAlienImage;
+            collision.GetComponent<SpriteRenderer>().sprite = sprite;
 
             Destroy(gameObject);
 
@@ -71,7 +67,7 @@ public class PlayerBullet : MonoBehaviour
 
             IncreaseTextUIScoreAlien4();
 
-            collision.GetComponent<SpriteRenderer>().sprite = explodedAlienImage;
+            collision.GetComponent<SpriteRenderer>().sprite = sprite;
 
             Destroy(gameObject);
 
@@ -87,11 +83,6 @@ public class PlayerBullet : MonoBehaviour
         {
             Destroy(gameObject);
         }
-    }
-
-    private void OnBecameInvisible()
-    {
-        Destroy(gameObject);
     }
 
     void IncreaseTextUIScoreAlien()

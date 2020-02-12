@@ -48,6 +48,7 @@ SpriteRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -143,5 +144,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 20
-  ExplodedShipImage: {fileID: -2324346263816543927, guid: 38df8b07c2f0a8d4d90947f3c2409381,
-    type: 3}
+  sprite: {fileID: -2324346263816543927, guid: 38df8b07c2f0a8d4d90947f3c2409381, type: 3}
