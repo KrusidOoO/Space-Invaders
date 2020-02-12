@@ -3,7 +3,16 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Walls
+  - Bullet
+  - Alien
+  - Shield
+  - AlienBullet
+  - Alien2
+  - Alien3
+  - Alien4
+  - AlienExploded
   layers:
   - Default
   - TransparentFX
@@ -13,12 +22,12 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Space Ship
+  - Wall
+  - Bullet
+  - Alien
+  - Shield
+  - AlienBullet
   - 
   - 
   - 
@@ -38,6 +47,12 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Background
+    uniqueID: 102216281
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Foreground
+    uniqueID: 1820132001
     locked: 0

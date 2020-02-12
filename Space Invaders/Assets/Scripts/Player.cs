@@ -24,7 +24,7 @@ public class Player : MonoBehaviour
         {
             Instantiate(PlayerBullet, transform.position, Quaternion.identity);
 
-            SoundManager.Instance.PlayOneShot(SoundManager.Instance.BulletFire);
+            SoundManager.Instance.playOneShot(SoundManager.Instance.BulletFire);
         }
     }
 }

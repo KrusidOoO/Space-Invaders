@@ -12,7 +12,7 @@ public class Aliens : MonoBehaviour
 
     public Sprite AltImage;
 
-    private SpriteRenderer renderer;
+    private new SpriteRenderer renderer;
 
     public float secBeforeChange = 0.5f;
 
@@ -25,10 +25,6 @@ public class Aliens : MonoBehaviour
     public float baseFireRateWait = 3.0f;
 
     public Sprite explodedShipImage;
-
-    private GameObject gameobject;
-
-    public BoxCollider2D Box2D;
     // Start is called before the first frame update
     void Start()
     {
@@ -56,31 +52,27 @@ public class Aliens : MonoBehaviour
     //Move down after hitting wall
     void MoveDown()
     {
-            Vector2 position = transform.position;
-            position.y -= 2f;
-            transform.position = position;
+        Vector2 position = transform.position;
+        position.y -= 2;
+        transform.position = position;
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if(collision.gameObject.name=="Left Wall")
         {
-            MoveDown();
             Turn(1);
+            MoveDown();
         }
         if(collision.gameObject.name=="Right Wall")
         {
-            MoveDown();
             Turn(-1);
+            MoveDown();
         }
         if(collision.gameObject.tag=="Bullet")
         {
-            SoundManager.Instance.PlayOneShot(SoundManager.Instance.AlienDies);
+            SoundManager.Instance.playOneShot(SoundManager.Instance.AlienDies);
             Destroy(gameObject);
-        }
-        if(collision.gameObject.tag=="Alien")
-        {
-            Box2D.enabled = false;
         }
     }
 
@@ -97,7 +89,7 @@ public class Aliens : MonoBehaviour
             else
             {
                 renderer.sprite = startingImage;
-                SoundManager.Instance.PlayOneShot(SoundManager.Instance.AlienBuzz2);
+                SoundManager.Instance.playOneShot(SoundManager.Instance.AlienBuzz2);
             }
 
             yield return new WaitForSeconds(secBeforeChange);
@@ -118,7 +110,7 @@ public class Aliens : MonoBehaviour
     {
         if(collision.gameObject.tag=="Player")
         {
-            SoundManager.Instance.PlayOneShot(SoundManager.Instance.ShipExplosion);
+            SoundManager.Instance.playOneShot(SoundManager.Instance.ShipExplosion);
             collision.GetComponent<SpriteRenderer>().sprite = explodedShipImage;
             Destroy(gameObject);
             Object.Destroy(collision.gameObject, 0.5f);

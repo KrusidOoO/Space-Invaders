@@ -23,7 +23,7 @@ public class AlienBullet : MonoBehaviour
         }
         if (collision.tag == "Player")
         {
-            SoundManager.Instance.PlayOneShot(SoundManager.Instance.ShipExplosion);
+            SoundManager.Instance.playOneShot(SoundManager.Instance.ShipExplosion);
 
             collision.GetComponent<SpriteRenderer>().sprite = ExplodedShipImage;
 

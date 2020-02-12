@@ -29,19 +29,19 @@ public class PlayerBullet : MonoBehaviour
 
         if(collision.tag=="Alien")
         {
-            SoundManager.Instance.PlayOneShot(SoundManager.Instance.AlienDies);
+            SoundManager.Instance.playOneShot(SoundManager.Instance.AlienDies);
 
             IncreaseTextUIScoreAlien();
 
             collision.GetComponent<SpriteRenderer>().sprite = explodedAlienImage;
-
             Destroy(gameObject);
 
-            Object.Destroy(collision.gameObject, 0.2f);
+            Object.Destroy(collision.gameObject, 0.1f);
+            collision.transform.gameObject.tag = "AlienExploded";
         }
         if (collision.tag == "Alien2")
         {
-            SoundManager.Instance.PlayOneShot(SoundManager.Instance.AlienDies);
+            SoundManager.Instance.playOneShot(SoundManager.Instance.AlienDies);
 
             IncreaseTextUIScoreAlien2();
 
@@ -49,11 +49,12 @@ public class PlayerBullet : MonoBehaviour
 
             Destroy(gameObject);
 
-            Object.Destroy(collision.gameObject, 0.2f);
+            Object.Destroy(collision.gameObject, 0.1f);
+            collision.transform.gameObject.tag = "AlienExploded";
         }
         if (collision.tag == "Alien3")
         {
-            SoundManager.Instance.PlayOneShot(SoundManager.Instance.AlienDies);
+            SoundManager.Instance.playOneShot(SoundManager.Instance.AlienDies);
 
             IncreaseTextUIScoreAlien3();
 
@@ -61,11 +62,12 @@ public class PlayerBullet : MonoBehaviour
 
             Destroy(gameObject);
 
-            Object.Destroy(collision.gameObject, 0.2f);
+            Object.Destroy(collision.gameObject, 0.1f);
+            collision.transform.gameObject.tag = "AlienExploded";
         }
         if (collision.tag == "Alien4")
         {
-            SoundManager.Instance.PlayOneShot(SoundManager.Instance.AlienDies);
+            SoundManager.Instance.playOneShot(SoundManager.Instance.AlienDies);
 
             IncreaseTextUIScoreAlien4();
 
@@ -73,7 +75,12 @@ public class PlayerBullet : MonoBehaviour
 
             Destroy(gameObject);
 
-            Object.Destroy(collision.gameObject, 0.2f);
+            Object.Destroy(collision.gameObject, 0.1f);
+            collision.transform.gameObject.tag = "AlienExploded";
+        }
+        if(collision.tag=="AlienExploded")
+        {
+            Destroy(gameObject.GetComponent<PlayerBullet>());
         }
 
         if (collision.tag=="Shield")

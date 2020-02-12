@@ -3,7 +3,12 @@ guid: f1bbfcb0991d89c438f9eb9a47fec744
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - AlienBuzz1: {fileID: 8300000, guid: 1dbacf37ca131594fab3c9a7b43667cb, type: 3}
+  - AlienBuzz2: {fileID: 8300000, guid: bb5408222aaf6904bbc59e897d4e5961, type: 3}
+  - AlienDies: {fileID: 8300000, guid: 671c34133efe3dd49b9cddb622bb0070, type: 3}
+  - BulletFire: {fileID: 8300000, guid: 98d15015c936e7e4e984e44f6add0318, type: 3}
+  - ShipExplosion: {fileID: 8300000, guid: 3e93a2847b900a442894c2b731902cf4, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
