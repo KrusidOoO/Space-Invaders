@@ -25,6 +25,10 @@ public class Aliens : MonoBehaviour
     public float baseFireRateWait = 3.0f;
 
     public Sprite explodedShipImage;
+
+    private GameObject gameobject;
+
+    public BoxCollider2D Box2D;
     // Start is called before the first frame update
     void Start()
     {
@@ -52,27 +56,31 @@ public class Aliens : MonoBehaviour
     //Move down after hitting wall
     void MoveDown()
     {
-        Vector2 position = transform.position;
-        position.y -= 2.5f;
-        transform.position = position;
+            Vector2 position = transform.position;
+            position.y -= 2f;
+            transform.position = position;
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if(collision.gameObject.name=="Left Wall")
         {
-            Turn(1);
             MoveDown();
+            Turn(1);
         }
         if(collision.gameObject.name=="Right Wall")
         {
-            Turn(-1);
             MoveDown();
+            Turn(-1);
         }
         if(collision.gameObject.tag=="Bullet")
         {
             SoundManager.Instance.PlayOneShot(SoundManager.Instance.AlienDies);
             Destroy(gameObject);
+        }
+        if(collision.gameObject.tag=="Alien")
+        {
+            Box2D.enabled = false;
         }
     }
 
