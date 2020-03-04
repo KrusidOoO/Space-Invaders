@@ -1,15 +1,30 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class AlienBullet : BulletMain
 {
     // Start is called before the first frame update
     void Start()
     {
-        rb2d = GetComponent<Rigidbody2D>();
+        Scene currentEditorScene = UnityEditor.SceneManagement.EditorSceneManager.GetActiveScene();
+        Scene currentScene = SceneManager.GetActiveScene();
 
-        rb2d.velocity = Vector2.down * speed;
+        if (currentScene == SceneManager.GetSceneByName("Intro Screen") || currentEditorScene == SceneManager.GetSceneByName("Intro Screen"))
+        {
+            Debug.Log("Time is paused");
+            Time.timeScale = 0;
+
+        }
+        else if (currentScene == SceneManager.GetSceneByName("Level 1") || currentEditorScene == SceneManager.GetSceneByName("Level 1"))
+        {
+            Debug.Log("Time resumed");
+            Time.timeScale = 1;
+            rb2d = GetComponent<Rigidbody2D>();
+
+            rb2d.velocity = Vector2.down * speed;
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

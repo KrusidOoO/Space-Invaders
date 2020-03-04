@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Aliens : MonoBehaviour
 {
@@ -28,16 +29,28 @@ public class Aliens : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        rb2d = GetComponent<Rigidbody2D>();
+        Scene currentEditorScene = UnityEditor.SceneManagement.EditorSceneManager.GetActiveScene();
+        Scene currentScene = SceneManager.GetActiveScene();
+        if (currentScene == SceneManager.GetSceneByName("Intro Screen") || currentEditorScene == UnityEditor.SceneManagement.EditorSceneManager.GetSceneByBuildIndex(0))
+        {
+            Debug.Log("Time is paused");
+            Time.timeScale = 0;
+        
+        }
+        else if (currentScene == SceneManager.GetSceneByName("Level 1") || currentEditorScene == UnityEditor.SceneManagement.EditorSceneManager.GetSceneByBuildIndex(1))
+        {
+            Debug.Log("Time is resumed");
+            Time.timeScale = 1;
+            rb2d = GetComponent<Rigidbody2D>();
 
-        rb2d.velocity = new Vector2(1, 0) * speed;
+            rb2d.velocity = new Vector2(1, 0) * speed;
 
-        renderer = GetComponent<SpriteRenderer>();
+            renderer = GetComponent<SpriteRenderer>();
 
-        StartCoroutine(changeAlienSprite());
+            StartCoroutine(changeAlienSprite());
 
-        baseFireRateWait = baseFireRateWait + Random.Range(minFireRate, maxFireRate);
-
+            baseFireRateWait = baseFireRateWait + Random.Range(minFireRate, maxFireRate);
+        }
 
     }
 
@@ -104,6 +117,7 @@ public class Aliens : MonoBehaviour
 
             Instantiate(AlienBullet, transform.position, Quaternion.identity);
         }
+        
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
