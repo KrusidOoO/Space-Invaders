@@ -11,12 +11,10 @@ public class AlienBullet : BulletMain
     {
         Scene currentEditorScene = UnityEditor.SceneManagement.EditorSceneManager.GetActiveScene();
         Scene currentScene = SceneManager.GetActiveScene();
-
         if (currentScene == SceneManager.GetSceneByName("Intro Screen") || currentEditorScene == SceneManager.GetSceneByName("Intro Screen"))
         {
             Debug.Log("Time is paused");
             Time.timeScale = 0;
-
         }
         else if (currentScene == SceneManager.GetSceneByName("Level 1") || currentEditorScene == SceneManager.GetSceneByName("Level 1"))
         {
@@ -26,9 +24,9 @@ public class AlienBullet : BulletMain
             GameObject[] healthObj = new GameObject[] {GameObject.Find("SpaceShipHealth_1"),GameObject.Find("SpaceShipHealth_2"),GameObject.Find("SpaceShipHealth_3") };
 
             rb2d.velocity = Vector2.down * speed;
+            rb2d.velocity = Vector2.down * speed*Time.timeScale;
         }
     }
-
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.tag == "Player")
@@ -37,7 +35,6 @@ public class AlienBullet : BulletMain
 
             anim.SetTrigger();
             collision.GetComponent<SpriteRenderer>().sprite = sprite;
-
             Destroy(gameObject);
             Object.Destroy(collision.gameObject, 0.5f);
         }
@@ -45,12 +42,6 @@ public class AlienBullet : BulletMain
         {
             Destroy(gameObject);
             Object.Destroy(collision.gameObject);
-
         }
-    }
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }
