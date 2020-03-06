@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class AlienBullet : BulletMain
 {
+        Animator anim;
     // Start is called before the first frame update
     void Start()
     {
@@ -22,6 +23,7 @@ public class AlienBullet : BulletMain
             Debug.Log("Time resumed");
             Time.timeScale = 1;
             rb2d = GetComponent<Rigidbody2D>();
+            GameObject[] healthObj = new GameObject[] {GameObject.Find("SpaceShipHealth_1"),GameObject.Find("SpaceShipHealth_2"),GameObject.Find("SpaceShipHealth_3") };
 
             rb2d.velocity = Vector2.down * speed;
         }
@@ -33,6 +35,7 @@ public class AlienBullet : BulletMain
         {
             SoundManager.Instance.playOneShot(SoundManager.Instance.ShipExplosion);
 
+            anim.SetTrigger();
             collision.GetComponent<SpriteRenderer>().sprite = sprite;
 
             Destroy(gameObject);
